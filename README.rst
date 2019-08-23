@@ -8,6 +8,7 @@ Examples
 ========
 
 ::
+
     $ git-turf "Hello, world"
     #   #      ## ##                            ##    #
     #   #       #  #                             #    #
@@ -30,6 +31,7 @@ Install
 -------
 
 ::
+
     $ git clone https://github.com/yoshi389111/git-turf.git
     $ cd git-turf
     $ pip3 install -e .
@@ -37,12 +39,14 @@ Install
 or
 
 ::
+
     $ pip3 install git+https://github.com/yoshi389111/git-turf.git
 
 Uninstall
 ---------
 
 ::
+
     $ pip3 uninstall git-turf
 
 Usage
@@ -52,6 +56,7 @@ Usage:
 ------
 
 ::
+
     git-turf [-h]
     git-turf [-v]
     git-turf [-d DATE] [-t TIME] [-n] MESSAGE
@@ -60,6 +65,7 @@ Options:
 --------
 
 ::
+
     -h,      --help       show this help message and exit
     -v,      --version    show program's version number and exit
     -d DATE, --date DATE  start date. format is YYYY-MM-DD
