@@ -123,8 +123,20 @@ def valid_time(s: str) -> time:
         raise argparse.ArgumentTypeError(msg)
 
 
-def main() -> None:
-    now = datetime.now().replace(microsecond=0)
+def git_turf(
+    message: str, start_date: date, commit_time: time, dry_run: bool
+) -> None:
+    fonts = read_fonts()
+    bitmap = convert_bitmap(fonts, message)
+
+    show_bitmap(bitmap)
+
+    if not dry_run:
+        start_datetime = datetime.combine(start_date, commit_time)
+        commit_message(start_datetime, bitmap)
+
+
+def arg_parser(now: datetime) -> argparse.ArgumentParser:
     start_date = sunday_a_year_ago(now.date())
 
     parser = argparse.ArgumentParser(description=_description)
@@ -158,17 +170,14 @@ def main() -> None:
         default=False,
         help="display message only",
     )
+    return parser
 
+
+def main() -> None:
+    now = datetime.now().replace(microsecond=0)
+    parser = arg_parser(now)
     args = parser.parse_args()
-
-    fonts = read_fonts()
-    bitmap = convert_bitmap(fonts, args.MESSAGE)
-
-    show_bitmap(bitmap)
-
-    if not args.dry_run:
-        start_datetime = datetime.combine(args.date, args.time)
-        commit_message(start_datetime, bitmap)
+    git_turf(args.MESSAGE, args.date, args.time, args.dry_run)
 
 
 if __name__ == "__main__":
