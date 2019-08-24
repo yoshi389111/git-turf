@@ -19,6 +19,8 @@ Examples
     #   #  ##   #  #  ##  #      # #   ##  #     #  ###
     $ git push
 
+.. image:: docs/graph_image.png
+
 Requirements
 ============
 
