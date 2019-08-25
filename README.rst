@@ -80,7 +80,7 @@ Copyright and License
 Program
 -------
 
-Copyright (C) 2019, SATO_Yoshiyuki
+Copyright (C) 2019, sato yoshiyuki
 
 This software is released under the MIT License.
 http://opensource.org/licenses/mit-license.php
@@ -102,7 +102,7 @@ k6x8.bdf
 
 * Copyright(C) 2002-2019 Num Kadoma
 * http://littlelimit.net/k6x8.htm
-* k6x8 period beta2
+* Version: k6x8 period beta2
 
 License
 ^^^^^^^
