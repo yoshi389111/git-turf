@@ -83,7 +83,7 @@ Program
 Copyright (C) 2019, sato yoshiyuki
 
 This software is released under the MIT License.
-http://opensource.org/licenses/mit-license.php
+https://opensource.org/licenses/mit-license.php
 
 Fonts
 -----
@@ -94,20 +94,20 @@ misaki_gothic.bdf
 ^^^^^^^^^^^^^^^^^
 
 * Copyright(C) 2000-2007 Num Kadoma
-* http://littlelimit.net/misaki.htm
+* https://littlelimit.net/misaki.htm
 * Version: 2019-06-03a
 
 k6x8.bdf
 ^^^^^^^^
 
 * Copyright(C) 2002-2019 Num Kadoma
-* http://littlelimit.net/k6x8.htm
+* https://littlelimit.net/k6x8.htm
 * Version: k6x8 period beta2
 
 License
 ^^^^^^^
 
-* http://littlelimit.net/font.htm
+* https://littlelimit.net/font.htm
 
     These fonts are free software.
     Unlimited permission is granted to use, copy, and distribute them,

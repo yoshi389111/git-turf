@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (C) 2019, SATO_Yoshiyuki
 # This software is released under the MIT License.
-# http://opensource.org/licenses/mit-license.php
+# https://opensource.org/licenses/mit-license.php
 
 
 import argparse
