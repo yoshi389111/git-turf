@@ -5,6 +5,9 @@ clean:
 	rm misaki_bdf_2019-06-03a.zip k6x8bb02.tar.gz
 
 misaki_gothic.bdf: misaki_bdf_2019-06-03a.zip
+	# required `unzip` command
+	# $ sudo apt-get install unzip  # Ubuntu
+	# $ sudo yum install unzip  # CentOS
 	unzip misaki_bdf_2019-06-03a.zip misaki_gothic.bdf
 
 misaki_bdf_2019-06-03a.zip:
