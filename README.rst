@@ -104,8 +104,8 @@ k6x8.bdf
 * https://littlelimit.net/k6x8.htm
 * Version: k6x8 period beta2
 
-License
-^^^^^^^
+License of fonts
+^^^^^^^^^^^^^^^^
 
 * https://littlelimit.net/font.htm
 
