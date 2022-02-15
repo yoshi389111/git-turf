@@ -80,7 +80,7 @@ Copyright and License
 Program
 -------
 
-(C) 2019 SATO, yoshiyuki
+Copyright (C) 2019 SATO, yoshiyuki
 
 This software is released under the MIT License.
 https://opensource.org/licenses/mit-license.php
