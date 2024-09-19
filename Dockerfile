@@ -8,7 +8,7 @@ RUN pip3 install -e .
 
 WORKDIR /workspace
 
-RUN git config --global safe.directory '*'
+RUN git config --global --add safe.directory /workspace
 
 ENTRYPOINT [ "git-turf" ]
 
