@@ -74,6 +74,36 @@ Options:
     -t TIME, --time TIME  commit time. format is HH:MM:SS
     -n,      --dry-run    display message only
 
+FAQ
+===
+
+Q1: does running this app clear the existing calendar?
+-----------------------------------------------------
+
+Running this app will not clear your existing calendar.
+It will just add to your existing calendar and increase the ASCII banner commit.
+
+Q2: does the calendar have to be blank?
+--------------------------------------
+
+The calendar doesn't have to be blank, but it looks better if it is.
+
+Q3: what happens if it's run twice with different input?
+--------------------------------------------------------
+
+Two ASCII banners are displayed one on top of the other.
+
+Q4: does it depend on a certain version of GitHub environment?
+--------------------------------------------------------------
+
+It does not depend on a certain version.
+
+Q5: what is the recommended way to do this?
+-------------------------------------------
+
+My recommendation is to create a new empty repository and commit and push to it.
+Once you've had enough fun, you can just delete the repository.
+
 Copyright and License
 =====================
 
